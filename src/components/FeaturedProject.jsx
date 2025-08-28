@@ -163,7 +163,7 @@ const FeaturedProjects = () => {
           <div className="flex flex-col md:flex-row gap-15 items-center relative md:mt-2  -mt-18">
             {/* Left Side - Project Card */}
             <div className="md:bg-neutral-900 rounded-2xl py-20 px-8 md:shadow-lg  md:w-1/2 w-full">
-              <span className=" absolute md:left-15 md:top-4 top-22 text-xs bg-[#0A0A0A] text-white px-3 py-1 rounded-full inline-block">
+              <span className=" absolute md:left-20 md:top-17 top-22 text-xs bg-[#0A0A0A] text-white px-3 py-1 rounded-full inline-block">
                 Conceptual Work
               </span>
               <div className=" pl-10 hidden md:block">

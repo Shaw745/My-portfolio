@@ -38,7 +38,7 @@ const FeaturedProjects = () => {
                 <img
                   src={work}
                   alt="Adventure Time Project"
-                  className="w-[486px] h-[300px] rounded-2xl"
+                  className="w-[486px] h-[300px] rounded-xl"
                 />
               </div>
             </div>
@@ -174,7 +174,7 @@ const FeaturedProjects = () => {
                 />
               </div>
               <div className=" md:hidden">
-                <img src={trex} alt="Adventure Time Project" />
+                <img src={trex} alt="Adventure Time Project rounded-xl " />
               </div>
             </div>
 

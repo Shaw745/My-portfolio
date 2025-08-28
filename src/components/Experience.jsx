@@ -15,7 +15,7 @@ const Experience = () => {
                   Freelance Developer
                 </h3>
                 <p className="text-[#C7C7C7] text-[16px] md:text-[18px] font-[400]">
-                  Nov 2023 — Present{" "}
+                  may 2025 — Present{" "}
                 </p>
               </div>
               <p className="text-[#C7C7C7] font-[400] text-[16px] md:text-[18px] mt-[15px]">

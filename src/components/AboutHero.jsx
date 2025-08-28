@@ -16,10 +16,10 @@ const AboutHero = () => {
           {/* Right Content */}
           <div className="md:w-2/3 space-y-2  ">
             {/* Headline */}
-            <h3 className="text-2xl md:text-3xl  text-[#FFFFFF] font-semibold leading-snug  w-[90%]">
+            <h3 className="text-2xl md:text-3xl  text-[#FFFFFF] font-semibold leading-snug  w-[90%] mb-3">
               I am a passionate{" "}
               <span className="text-[#D3E97A] font-medium">
-                Front-End Developer
+                Full-Stack Developer
               </span>{" "}
               with a strong academic background in{" "}
               <span className="font-medium">Environmental Biology</span> {""}
@@ -40,7 +40,7 @@ const AboutHero = () => {
                 {" "}
                 research, attention to detail, and sustainability
               </span>{" "}
-              — values I also bring into technology projects. I aspire to
+              values I also bring into technology projects. I aspire to
               contribute to projects that not only solve problems but also have
               a meaningful impact. Currently, I’m exploring Reactjs, Webflow and
               a bit of Designing. While I am not programming, I enjoy playing
@@ -49,13 +49,13 @@ const AboutHero = () => {
             </p>
 
             {/* Buttons & Socials */}
-            <div className="flex items-center gap-5 flex-wrap mt-6">
+            <div className="flex items-center gap-5 mt-6">
               {/* Resume Button */}
               <a
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-5 bg-[#D3E97A] text-black font-semibold px-4 py-3 rounded-full uppercase hover:bg-lime-300 transition"
+                className="flex items-center gap-3 md:gap-5 bg-[#D3E97A] text-black font-semibold px-2 md:px-3 py-2 md:py-4 rounded-full uppercase hover:bg-lime-300 transition text-[14px]"
               >
                 Download Resume
                 <BsFillCircleFill className="text-xs hidden md:block " />

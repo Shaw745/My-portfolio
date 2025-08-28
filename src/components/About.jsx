@@ -14,51 +14,45 @@ const About = () => {
           </div>
 
           {/* Right Side - Content */}
-          <div className="space-y-6 w-[95%]">
-            <h3 className="text-2xl md:text-3xl  text-[#FFFFFF] font-semibold leading-snug  w-[90%]">
+          <div className=" w-[95%]">
+            <h3 className="text-2xl md:text-3xl  text-[#FFFFFF] font-semibold leading-snug hidden md:block  md:w-[550px] mb-4">
               I am a passionate{" "}
               <span className="text-[#D3E97A] font-medium">
-                Front-End Developer
+                Full-Stack Developer
               </span>{" "}
               with a strong academic background in{" "}
               <span className="font-medium">Environmental Biology</span> {""}
               Based in Nigeria
             </h3>
 
-            <p className="text-[#C7C7C7] leading-relaxed hidden md:block">
-              I combine analytical problem-solving skills with creativity to
-              design and build accessible, user-friendly, and visually engaging
-              web applications. My transition from environmental sciences to
-              software development reflects my adaptability, curiosity, and
-              commitment to continuous learning. Whether it's creating intuitive
-              user interfaces or writing clean, efficient code, I enjoy turning
-              ideas into functional digital solutions. Beyond coding, my
-              background in biology has given me a strong sense of
-              <span className="font-medium">
-                {" "}
-                research, attention to detail, and sustainability
-              </span>{" "}
-              values I also bring into technology projects. I aspire to
-              contribute to projects that not only solve problems but also have
-              a meaningful impact. Currently, I’m exploring Reactjs, Webflow and
-              a bit of Designing. While I am not programming, I enjoy playing
-              golf, photography and playing Valorant. Learning more to improve
-              skill.
+            <p className="text-[#C7C7C7] leading-relaxed w-[550px] mb-12  hidden md:block">
+              I’m a creative and analytical full-stack developer with a
+              background in environmental sciences, now channeling my curiosity
+              and adaptability into building accessible, visually engaging web
+              applications. My experience in biology instilled a strong
+              foundation in research, attention to detail, and
+              sustainability values I bring into every tech project. I enjoy
+              crafting intuitive user interfaces and writing clean, efficient
+              code that transforms ideas into impactful digital solutions.
+              Currently, I’m exploring React.js, Webflow, and design. Outside of
+              coding, I unwind with golf, photography, and Valorant, always
+              learning to sharpen my skills.
             </p>
-            <p className="text-[#C7C7C7] leading-relaxed md:hidden">
+            <p className="text-[#C7C7C7] mb-4 leading-relaxed md:hidden">
               I am a passionate{" "}
               <span className="text-[#D3E97A] font-medium">
-                Front-End Developer
+                Full-Stack Developer
               </span>{" "}
               with a strong academic background in{" "}
               <span className="font-medium">Environmental Biology</span>. Based
-              in Nigeria, I combine analytical problem-solving skills with
-              creativity to design and build accessible, user-friendly, and
+              in Nigeria, I combine analytical problem solving skills with
+              creativity to design and build accessible, usFull-Stackly, and
               visually engaging web applications.
             </p>
             <Link
               to="/about"
-              className="text-[#D3E97A] font-medium border-b-2 border-[#D3E97A] uppercase text-sm hover:underline"
+              onClick={() => window.scrollTo(0, 0)}
+              className="text-[#D3E97A] font-medium border-b-2 border-[#D3E97A] uppercase  text-sm hover:underline"
             >
               More about me
             </Link>

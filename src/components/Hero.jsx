@@ -13,7 +13,7 @@ const Hero = () => {
             <span className="text-white">GODSPOWER SIKIRU.</span>
           </h2>
           <p className="text-[#C7C7C7] mb-6 text-lg max-w-lg">
-            A Nigerian based front-end developer passionate about building
+            A Nigerian based Full-Stack developer passionate about building
             accessible and user friendly websites.
           </p>
 

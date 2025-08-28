@@ -15,7 +15,7 @@ const FeaturedProjects = () => {
           </h2>
           <p className="text-[#C7C7C7] my-4 text-start w-[80%] font-medium">
             Here are some of the selected projects that showcase my passion for
-            front-end development.
+            Full-Stack  development.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ const FeaturedProjects = () => {
                 property search. It features user authentication, real-time
                 property filtering, and a clean, intuitive UI. Built with a
                 focus on usability and performance, it showcases my ability to
-                deliver both sleek front-end design and practical, user-focused
+                deliver both sleek Full-Stack  design and practical, user-focused
                 functionality.
               </p>
 
@@ -71,7 +71,7 @@ const FeaturedProjects = () => {
                 </div>
                 <div className="flex justify-between text-[#FFFFFF] py-2 border-t border-gray-700">
                   <span className="font-medium">Role</span>
-                  <span className=" text-[#C7C7C7]">Front-end Developer</span>
+                  <span className=" text-[#C7C7C7]">Full-Stack  Developer</span>
                 </div>
               </div>
               <div className=" border-t border-gray-700"></div>
@@ -141,7 +141,7 @@ const FeaturedProjects = () => {
                 </div>
                 <div className="flex justify-between text-[#FFFFFF] py-2 border-t border-gray-700">
                   <span className="font-medium">Role</span>
-                  <span className=" text-[#C7C7C7]">Front-end Developer</span>
+                  <span className=" text-[#C7C7C7]">Full-Stack  Developer</span>
                 </div>
               </div>
               <div className=" border-t border-gray-700"></div>
@@ -211,7 +211,7 @@ const FeaturedProjects = () => {
                 </div>
                 <div className="flex justify-between text-[#FFFFFF] py-2 border-t border-gray-700">
                   <span className="font-medium">Role</span>
-                  <span className=" text-[#C7C7C7]">Front-end Developer</span>
+                  <span className=" text-[#C7C7C7]">Full-Stack  Developer</span>
                 </div>
               </div>
               <div className=" border-t border-gray-700"></div>

@@ -50,7 +50,7 @@ const About = () => {
               I am a passionate{" "}
               <span className="text-[#D3E97A] font-medium">
                 Front-End Developer
-              </span>
+              </span>{" "}
               with a strong academic background in{" "}
               <span className="font-medium">Environmental Biology</span>. Based
               in Nigeria, I combine analytical problem-solving skills with

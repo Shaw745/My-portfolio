@@ -27,14 +27,14 @@ const FeaturedProjects = () => {
               <span className=" absolute md:left-15 md:top-4 top-22 text-xs bg-[#0A0A0A] text-white px-3 py-1 rounded-full inline-block">
                 Conceptual Work
               </span>
-              <div className=" pl-10 hidden md:block">
+              <div className="  hidden md:block">
                 <img
                   src={work}
                   alt="Adventure Time Project"
                   className="rounded-xl border border-gray-800"
                 />
               </div>
-              <div className=" md:hidden">
+              <div className=" flex justify-center items-center md:hidden">
                 <img
                   src={work}
                   alt="Adventure Time Project"

@@ -125,7 +125,7 @@ const Contact = () => {
                   type="text"
                   {...register("name")}
                   placeholder="John Doe"
-                  className="w-full p-3 bg-neutral-900 border border-neutral-700 rounded"
+                  className="w-full p-3 bg-neutral-900 border border-neutral-700 rounded normal-case"
                 />
                 {errors.name && (
                   <p className="text-red-400 text-sm mt-1">
@@ -139,7 +139,7 @@ const Contact = () => {
                 <input
                   type="email"
                   {...register("email")}
-                  className="w-full p-3 bg-neutral-900 border border-neutral-700 rounded"
+                  className="w-full p-3 bg-neutral-900 border border-neutral-700 rounded normal-case"
                 />
                 {errors.email && (
                   <p className="text-red-400 text-sm mt-1">
@@ -153,7 +153,7 @@ const Contact = () => {
                 <input
                   type="text"
                   {...register("subject")}
-                  className="w-full p-3 bg-neutral-900 border border-neutral-700 rounded"
+                  className="w-full p-3 bg-neutral-900 border border-neutral-700 rounded normal-case"
                 />
                 {errors.subject && (
                   <p className="text-red-400 text-sm mt-1">
@@ -167,7 +167,7 @@ const Contact = () => {
                 <textarea
                   {...register("message")}
                   rows="5"
-                  className="w-full p-3 bg-neutral-900 border border-neutral-700 rounded resize-none"
+                  className="w-full p-3 bg-neutral-900 border border-neutral-700 rounded resize-none normal-cas"
                 ></textarea>
                 {errors.message && (
                   <p className="text-red-400 text-sm mt-1">

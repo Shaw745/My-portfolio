@@ -2,13 +2,18 @@ import hero from "../assets/hero.jpg";
 import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import { ArrowUpRight } from "lucide-react";
+
+
+
 const Hero = () => {
   return (
     <div>
       <div className="layout  flex flex-col md:flex-row items-center justify-between px-5 py-12 md:py-20">
         {/* Left: Text */}
         <div className=" layout md:text-left text-[#FFFFFF]">
-          <h2 className="text-4xl md:text-5xl   font-bold leading-tight mb-4">
+          <h2 className="text-2xl md:text-5xl   font-bold leading-tight mb-4">
             HI, I AM <br />
             <span className="text-white">GODSPOWER SIKIRU.</span>
           </h2>
@@ -18,29 +23,32 @@ const Hero = () => {
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-row items-center gap-4 mb-12">
-            <button className="  ">
-              <a
-                href="#contact"
-                className="bg-[#D3E97A] text-black px-6 flex items-center gap-3 py-3 rounded-full font-medium hover:bg-lime-300 transition"
-              >
-                Contact Me <GoDotFill className="inline-block" />
-              </a>
-            </button>
-            <div className="flex gap-4">
-              <a
-                href="https://www.linkedin.com/in/sikiru-godspower-228394381/"
-                className="bg-[#222222] p-3 rounded-full hover:bg-gray-700 transition"
-              >
-                <FaLinkedinIn color="#D3E97A" />
-              </a>
-              <a
-                href="https://github.com/Shaw745"
-                className="bg-[#222222] p-3 rounded-full hover:bg-gray-700 transition"
-              >
-                <IoLogoGithub color="#D3E97A" />
-              </a>
-            </div>
+          <div className="flex items-center gap-4 my-6">
+            <AnchorLink
+              href="#contact"
+              style={{ fontFamily: "'Manrope', sans-serif" }}
+              className="bg-[#D3E97A] font-[700] text-[12px] text-[#0A0A0A] md:text-[16px]  uppercase rounded-[100px] w-[163px] h-[48px] md:w-[187px] md:h-[54px] flex items-center justify-center pl-[18px] py-[20px] pr-[6px] gap-4 "
+            >
+              Contact Me <GoDotFill size={20} className="hidden md:block" />{" "}
+              <div className="w-[40px] h-[40px] rounded-full bg-[#0A0A0A] flex items-center justify-center md:hidden">
+                <ArrowUpRight color="white" />
+              </div>
+            </AnchorLink>
+            <a
+              to="https://www.linkedin.com/in/sikiru-godspower-228394381"
+              target="_blank"
+              className="bg-[#222222] rounded-full w-[48px] cursor-pointer h-[48px] md:w-[54px] md:h-[54px] flex justify-center items-center "
+            >
+              <FaLinkedinIn color="#D3E97A" size={20} />
+            </a>
+            <a
+              to="https://github.com/Shaw745"
+              target="_blank"
+              className="bg-[#222222] rounded-full w-[48px] h-[48px] cursor-pointer md:w-[54px] md:h-[54px] flex justify-center items-center "
+            >
+              <IoLogoGithub color="#D3E97A" size={20} />
+            </a>
+                      
           </div>
         </div>
 

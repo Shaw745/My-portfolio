@@ -5,8 +5,6 @@ import { GoDotFill } from "react-icons/go";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { ArrowUpRight } from "lucide-react";
 
-
-
 const Hero = () => {
   return (
     <div>
@@ -35,20 +33,19 @@ const Hero = () => {
               </div>
             </AnchorLink>
             <a
-              to="https://www.linkedin.com/in/sikiru-godspower-228394381"
+              href="https://www.linkedin.com/in/sikiru-godspower-228394381"
               target="_blank"
               className="bg-[#222222] rounded-full w-[48px] cursor-pointer h-[48px] md:w-[54px] md:h-[54px] flex justify-center items-center "
             >
               <FaLinkedinIn color="#D3E97A" size={20} />
             </a>
             <a
-              to="https://github.com/Shaw745"
+              href="https://github.com/Shaw745"
               target="_blank"
               className="bg-[#222222] rounded-full w-[48px] h-[48px] cursor-pointer md:w-[54px] md:h-[54px] flex justify-center items-center "
             >
               <IoLogoGithub color="#D3E97A" size={20} />
             </a>
-                      
           </div>
         </div>
 

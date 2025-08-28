@@ -4,6 +4,7 @@ import Nav from "../components/Nav";
 import AboutHero from "../components/AboutHero";
 import Capabilities from "../components/Capabilities";
 import Experience from "../components/Experience";
+import BackToTop from "../components/BackToTop";
 
 const AboutPage = () => {
   return (
@@ -11,9 +12,9 @@ const AboutPage = () => {
       <Nav />
       <AboutHero />
       <Capabilities />
-     <Experience />
-
+      <Experience />
       <Contact />
+      <BackToTop />
     </div>
   );
 };

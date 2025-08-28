@@ -1,4 +1,3 @@
-import React from "react";
 import hero from "../assets/hero.jpg";
 import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedinIn } from "react-icons/fa";

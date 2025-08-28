@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FaLinkedinIn,
   FaGithub,
@@ -102,7 +101,7 @@ const Contact = () => {
                   <FaXTwitter />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/shaw144444/?igsh=Zmdiazl5dTBrZGUy&utm_source=qr#"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: "light --default";
+}
+
+.layout {
+  @apply max-w-[1400px] px-5 mx-auto w-full;
+}
+
+body {
+  background-color: black;
+}
+ 
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  font-family: 'Bebas Neue', sans-serif;
+}

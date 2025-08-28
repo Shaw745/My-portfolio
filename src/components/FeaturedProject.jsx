@@ -2,7 +2,6 @@ import { ArrowUpRight } from "lucide-react";
 import work from "../assets/work.jpg";
 import { IoLogoGithub } from "react-icons/io5";
 import shortly from "../assets/shortly.jpg";
-import smallWork from "../assets/smallWork.png";
 import trex from "../assets/trex.jpg";
 
 const FeaturedProjects = () => {
